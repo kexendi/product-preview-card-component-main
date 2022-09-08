@@ -55,6 +55,10 @@ h1 {
   height: 450px;
 }
 
+.left-side {
+  width: 300px;
+}
+
 .left-side > .desktop-only{
   background-size: cover;
   background-position: center;
