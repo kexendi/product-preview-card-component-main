@@ -55,8 +55,7 @@ h1 {
   height: 450px;
 }
 
-.left-side {
-  background: url("/images/image-product-desktop.jpg");
+.left-side > .desktop-only{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -144,12 +143,15 @@ p {
 
   .mobile-only {
     display: block;
-    background: url("/images/image-product-mobile.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    width: 332px
+    width: 332px;
+  }
+
+  .desktop-only {
+    display: none;
   }
 }
